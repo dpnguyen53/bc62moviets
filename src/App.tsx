@@ -1,13 +1,12 @@
 import "./App.css";
-import HomeTemplate from "./pages/HomeTemplate";
-import AdminTemplate from "./pages/AdminTemplate";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import renderRoutes from "./routes";
 
 function App() {
   return (
-    <div>
-      <HomeTemplate />
-      <AdminTemplate />
-    </div>
+    <BrowserRouter>
+      <Routes>{renderRoutes()}</Routes>
+    </BrowserRouter>
   );
 }
 

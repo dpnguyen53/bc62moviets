@@ -1,7 +1,11 @@
+import { Outlet } from "react-router-dom";
+
 export default function AdminTemplate() {
   return (
     <div>
-      <h3>AdminTemplate</h3>
+      <div>Navbar</div>
+      <Outlet />
+      <div>Footer</div>
     </div>
   );
 }
