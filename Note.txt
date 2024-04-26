@@ -7,4 +7,13 @@
 
 ===== Buổi 12 =====
     Hooks: stateless
+        - useState
+        - useEffect
+        - useCallback
+        - useMemo
+        - memo
+        - custom hook
+        - useRef
+        - useReducer
+        ......
 
