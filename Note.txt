@@ -5,3 +5,6 @@
 ===== Buổi 11 =====
     React router dom: lib
 
+===== Buổi 12 =====
+    Hooks: stateless
+

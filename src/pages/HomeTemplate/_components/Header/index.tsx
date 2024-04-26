@@ -49,6 +49,16 @@ export default function Header() {
               List Movie
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "nav-link my-active" : "nav-link"
+              }
+              to="/hooks"
+            >
+              Hooks
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
