@@ -17,3 +17,7 @@
         - useReducer
         ......
 
+===== Buổi 13 =====
+    get list movie
+    get detail movie
+
