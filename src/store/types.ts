@@ -8,3 +8,9 @@ export type Action = {
   type: string;
   payload?: any;
 };
+
+export type AppStateDetails<K> = {
+  loading: boolean;
+  data: K | null;
+  error: any;
+};
